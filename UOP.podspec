@@ -126,7 +126,7 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
   s.vendored_frameworks = 'UOP/UnionOpenPlatform.framework'
-  spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+  # spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
   #  If your library depends on compiler flags you can set them in the xcconfig hash
