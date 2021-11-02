@@ -140,7 +140,7 @@ Pod::Spec.new do |s|
   build_script = <<-EOF
     #!/usr/bin/env bash
 
-    APMSDKAssetCrashPath="${PODS_ROOT}/RangersAPM/RangersAPM/Assets/Crash"
+    APMSDKAssetCrashPath="${PODS_ROOT}/UOP"
     addressRangeFileName="${APMSDKAssetCrashPath}/APMInsightCrash.bundle/APMInsightSDKAddressRange.plist"
 
     plistLineNum=0
