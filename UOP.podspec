@@ -119,7 +119,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.libraries = 'libz' , "libc++abi" ,"libc++"
+  s.libraries = 'z' , "c++abi" ,"c++"
   # s.framework  = "SomeFramework"
   s.frameworks = "Accelerate","Metal"
 
